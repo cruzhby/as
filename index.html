@@ -582,7 +582,7 @@ body{
     </svg>
     <div class="s2-title">✨ Happy Birthday ✨</div>
     <div class="s2-name">Kak Eva!</div>
-    <div class="date-badge">🎂 14 Mei &nbsp;·&nbsp; 22 Tahun!</div>
+    <div class="date-badge">🎂 14 Mei &nbsp;·&nbsp; 23 Tahun!</div>
     <div class="s2-sub">🌻 Secerah bunga matahari, selucuuuu Nailong! 🌻</div>
     <div class="sun-row" style="margin-top:clamp(4px,.8vh,9px)">🌻 🌼 🌸 🌻 🌼</div>
   </div>
@@ -622,7 +622,7 @@ body{
       <div class="fcard" onclick="wgl(this)">
         <div class="fc-emo">🌟</div>
         <div class="fc-ttl">22 & Glowing</div>
-        <div class="fc-txt">22 tahun, auranya 2 juta watt. Makin kinclong! ✨</div>
+        <div class="fc-txt">23 tahun, auranya 3 juta watt. Makin kinclong! ✨</div>
       </div>
     </div>
   </div>
@@ -630,7 +630,7 @@ body{
   <!-- ▓▓▓ SLIDE 4 – 22 REASONS ▓▓▓ -->
   <div class="slide" id="s3">
     <div class="s4bg"></div>
-    <p class="pg-title">💛 22 Alasan Kak Eva Istimewa!</p>
+    <p class="pg-title">💛 23 Alasan Kak Eva Istimewa!</p>
     <div class="rscroll">
       <div class="rgrid" id="rgrid"></div>
     </div>
@@ -745,7 +745,7 @@ body{
     <div class="s5-msg">
       Kak Eva yang ceria &amp; lucu — kamu tuh beneran kayak bunga matahari berjalan sumpah.
       Makasih udah ajarin aku banyak hal soal emosi dan banyak lagi deh kak! 🌻<br><br>
-      Selamat ulang tahun ke‑22, 14 Mei yaah Kak!
+      Selamat ulang tahun ke‑23, 14 Mei yaah Kak!
       Semoga semua mimpi kakak mekar sempurnah kek bunga matahari, selalu sehat, bahagia, dan makin bersinar! 💛 ♉
     </div>
     <div class="s5-sig">— Dari si bebek to Our Yellow 🌻</div>
@@ -872,7 +872,7 @@ const RR=[
   {e:'🎁',t:'kakak tuh hadiah terbaik bgt'},
   {e:'🌙',t:'Malam jadi siang kalau ada KK'},
   {e:'🍀',t:'uuhm kalau main valo fix ACE'},
-  {e:'👑',t:'Happy 22 kaks! 14 Mei forever spesial 🎂'},
+  {e:'👑',t:'Happy 23 kaks! 14 Mei forever spesial 🎂'},
 ];
 const rg=document.getElementById('rgrid');
 RR.forEach((r,i)=>{
@@ -898,13 +898,13 @@ function openGift(){
     ['🌻','🌻','🌻','🌼','🌼','🌸','⭐','✨','💛','🌟','🎊','🌻'].forEach((em,i)=>{
       setTimeout(()=>spawnFlyp(em,cx,cy),i*60);
     });
-    [{b:'🎈',msg:'Happy Birthday!'},{b:'🎈',msg:'14 Mei 🎂'},{b:'🎈',msg:'22 Tahun! 🎉'},
+    [{b:'🎈',msg:'Happy Birthday!'},{b:'🎈',msg:'14 Mei 🎂'},{b:'🎈',msg:'23 Tahun! 🎉'},
      {b:'🎈',msg:'Kak💛'},{b:'🎈',msg:'Makin cantik! ✨'},{b:'🎈',msg:'Selamat! 🌟'}]
     .forEach((bl,i)=>setTimeout(()=>spawnBalloon(bl.b,bl.msg,cx,cy),i*110+90));
     for(let i=0;i<22;i++) setTimeout(()=>spawnCf(),i*55);
     document.getElementById('s1hint').textContent='🎉 Geser ke kanan untuk lanjut! →';
     document.getElementById('s1hint').style.animation='none';
-    toast('🌻 Selamat Ulang Tahun ke-22, Kak Eva! 🎂');
+    toast('🌻 Selamat Ulang Tahun ke-23, Kak Eva! 🎂');
     setTimeout(()=>go(1),2800);
     if(ytReady&&!ytPlaying) ytPlayer.playVideo();
   },360);
@@ -979,7 +979,7 @@ function blowCandles(){
       },k*180);
     });
     btn.textContent='🕯️ Nyalakan Lagi?';
-    msg.innerHTML='🎉 Yeay! Selamat Ulang Tahun ke-22, Kak Eva!<br>Semoga semua wish-nya terkabul! 💛🌟';
+    msg.innerHTML='🎉 Yeay! Selamat Ulang Tahun ke-23, Kak Eva!<br>Semoga semua wish-nya terkabul! 💛🌟';
     for(let i=0;i<35;i++) setTimeout(()=>spawnCf(),i*55);
     toast('🎂 Wish kamu pasti dikabul! Happy Birthday Kak Eva! 🌻');
   },500);
